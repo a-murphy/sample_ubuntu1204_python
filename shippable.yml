@@ -20,7 +20,7 @@ install:
 before_script:
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
-  - docker pull busybox
+  - docker pull shippableimages/ubuntu1204_scala
 
 script:
   - nosetests test.py --with-xunit --xunit-file=shippable/testresults/nosetests.xml
