@@ -8,6 +8,9 @@ python:
  # - 3.3
   - 3.4
   
+services:
+  - redis
+  
 before_install:
   # We're going to set up a virtualenv and activate the python version we want to use
   - mkdir -p $HOME/sample_ve/
