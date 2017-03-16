@@ -1,6 +1,7 @@
 language: python
 
-build_image: shippableimages/ubuntu1204_python:latest
+#build_image: shippableimages/ubuntu1204_python:latest
+build_image: drydock/u16pytall:tip
 
 python:
   - 2.7
