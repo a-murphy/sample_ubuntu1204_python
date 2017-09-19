@@ -3,6 +3,8 @@ language: python
 python:
   - pypy
   
+build_image: drydock/u14pytall:v5.3.2
+  
 before_script:
   - pip --version
   - pip install lxml
