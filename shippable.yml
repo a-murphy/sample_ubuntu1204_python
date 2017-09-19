@@ -3,7 +3,7 @@ language: python
 python:
   - pypy
   
-build_image: drydock/u16pytall:v5.7.3
+build_image: drydock/u16pytall:v5.8.2
   
 before_script:
   - pip --version
